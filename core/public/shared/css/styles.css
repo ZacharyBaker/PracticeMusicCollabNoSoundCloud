@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+}
+/*LOGIN PAGE*/
+.loginContainer, .profileContainer, .updateContainer, .matchesContainer {
+	font-family: 'Lato', sans-serif;
+}
+
+.loginGuy, .newUserGuy {
+	max-width: 23%;
+	display: inline-block;
+	margin: 10px;
+	color: #34495e;
+}
+
+.newUserGuy {
+	border-left: 1px solid black;
+	padding-left: 18px;
+}
+
+.loginTopHalf {
+	height: 450px;
+	background-color: #34495e;
+	width: 100%;
+}
+
+.loginTitle {
+	color: white;
+	font-size: 90px;
+	font-weight: bold;
+	padding-right: 30px;
+}
+
+/*PROFILE PAGE*/
+.profileContainer {
+	/*background-color: #34495e;*/
+	background-color: #EEEEEE;
+}
+
+#profileNav {
+	background-color: #34495e;
+	
+}
+
+.profileTitle {
+	
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+#displayInline {
+	display: inline;
+}
+
+#profileButtons {
+	font-size: 25px;
+	white-space: nowrap;
+	background-color: #34495e;
+	
+}
+#matchingBox {
+	background-color: white;
+	margin-left: 30px;
+}
+
+.A {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 40px;
+	margin-top: 0px;
+}
+#profilePageProfileBox {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#matchingBox {
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.chattyBox {
+	max-height: 300px;
+	overflow-y: scroll;
+}
+
+.notificationParent {
+	position: relative;
+}
+.newNotification {
+	position: relative;
+}
+.messageAlignment {
+	clear: both;
+}
+
+.sideNavButtons {
+	font-size: 20px;
+	white-space: nowrap;
+	background-color: #34495e;
+	
+}
+
+.sideNav {
+	background-color: #34495e;
+	max-height: 130px;
+	
+}
+
+
+/*loginpage*/
+
+.updater {
+	margin-top: 20px;
+}
+
+/*matching*/
+
+.sideNavMatch {
+	background-color: #34495e;
+	max-width: 170px;
+	max-height: 1px;
+}

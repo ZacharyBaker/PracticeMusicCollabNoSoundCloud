@@ -1,0 +1,49 @@
+<div class="loginContainer container">
+	<div class="loginTopHalf">
+
+		<h3 class="loginTitle right">MUSICLAB</h3>
+
+
+	</div>
+
+
+
+
+
+
+	<div class="container right newUserGuy">
+		<h6>Create New User</h6>
+		<form ng-submit="addNewUser(newUser)">
+			<input type="text" placeholder="email.." ng-model="newUser.email">
+			<br>
+
+			<input type="text" placeholder="username.." ng-model="newUser.username">
+			<br>
+
+			<input type="password" placeholder="password.." ng-model="newUser.password">
+			<br>
+
+			<button>Submit</button>
+
+		</form>
+
+	</div>
+
+	<div class="container right loginGuy">
+		<h6>Login</h6>
+		<form ng-submit="tryToLogin(oldUser)">
+			<input type="text" placeholder="email.." ng-model="oldUser.email">
+			<br>
+
+			<input type="password" placeholder="password.." ng-model="oldUser.password">
+			<br>
+			<button>Login</button>
+		</form>
+	</div>
+
+
+
+
+
+
+</div>
